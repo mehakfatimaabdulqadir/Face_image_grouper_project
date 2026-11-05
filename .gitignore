@@ -1,0 +1,14 @@
+# Local Python environment and notebook cache
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+
+# Dataset: provide its download link in README
+lfw_funneled/
+data/
+
+# Model files: FaceNet can download pretrained weights
+*.pth
+*.pt
+*.joblib
+*.npz
